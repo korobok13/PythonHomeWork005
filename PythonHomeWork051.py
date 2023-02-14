@@ -18,4 +18,4 @@ def deg1(a, b):
 a = int(input('Введите число: '))
 b = int(input('Введите степень: '))
 
-print(deg1(a, b))
+print(f'A = {a}; B = {b} -> {deg1(a, b)}')
