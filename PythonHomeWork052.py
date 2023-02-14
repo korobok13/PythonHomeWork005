@@ -8,3 +8,13 @@
 # 2 4
 # 2
 
+def sum1(a, b):
+    if b == 0:
+        return a
+    return sum1(a + 1, b - 1)
+
+a = int(input('Введите число A: '))
+b = int(input('Введите число B: '))
+
+print(f'A = {a}; B = {b} -> {sum1(a, b)}')
+
